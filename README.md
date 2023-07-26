@@ -1,6 +1,8 @@
 # ERM Protoss HD Assets
 ERM Protoss HD Assets
 
+#### PLEASE DO NOT COPY THESE ASSETS TO YOUR OWN MODS. Please use mod dependencies if you plan to use these assets. HD asset duplication is bad for game performance!
+
 ##### Licenses
 Lua code files are licensed under GNU LGPLv3
 
@@ -27,7 +29,7 @@ However, Starcraft graphic and sound assets are properties of Blizzard Entertain
 local TossAnimation = require('__erm_toss_hd_assets__/animation_db')
 
 --- Entity_Type, Name, Animation_Type, Unit_Scale(optional)
-unit['animations'] = ZergAnimation.get_layer_animation('unit','zealot','run')
+unit['animations'] = TossAnimation.get_layer_animation('unit','zealot','run')
 
 -- Entity_Type: buildings, projectiles, units
 -- Animation_Type: 

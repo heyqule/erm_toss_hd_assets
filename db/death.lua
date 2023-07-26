@@ -143,6 +143,32 @@ return {
                 scale = 0.5,
             }
         }
+    },
+    small_rubble = {
+        explosion = {
+            main =  {
+                filename = "__erm_toss_hd_assets__/graphics/entity/buildings/death/small_rubble.png",
+                variation_count = 1,
+                width = 353,
+                height = 376,
+                frame_count = 1,
+                direction_count = 1,
+                scale = 0.5
+            }
+        }
+    },
+    large_rubble = {
+        explosion = {
+            main =  {
+                filename = "__erm_toss_hd_assets__/graphics/entity/buildings/death/large_rubble.png",
+                width = 502,
+                height = 533,
+                variation_count = 1,
+                frame_count = 1,
+                direction_count = 1,
+                scale = 0.5
+            }
+        }
     }
 }
 
