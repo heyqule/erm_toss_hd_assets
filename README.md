@@ -23,7 +23,7 @@ However, Starcraft graphic and sound assets are properties of Blizzard Entertain
   ]
 }
 ```
-2. Using assets within your mod
+2. Using assets within your mod.  Here is a list of possible animations [animation_api_calls.lua](https://github.com/heyqule/erm_toss_hd_assets/blob/main/animation_api_calls.lua)
 ```lua
 --- Include graphics in your mods file
 local TossAnimation = require('__erm_toss_hd_assets__/animation_db')
@@ -31,13 +31,6 @@ local TossAnimation = require('__erm_toss_hd_assets__/animation_db')
 --- Entity_Type, Name, Animation_Type, Unit_Scale(optional)
 unit['animations'] = TossAnimation.get_layer_animation('unit','zealot','run')
 
--- Entity_Type: buildings, projectiles, units
--- Animation_Type: 
---
---    buildings = { run }
---    units = {run, attack, corpse}
---    projectiles = {attack_attachment, projectile, explosion}
---
 
 -- Single layer animation
 projectile['animation'] = ZergAnimation.get_single_animation('projectiles','shield_battery','explosion')
@@ -56,13 +49,13 @@ end
 projectile['animation'] = animation
 
 --- Include Sound, see the class for details 
-local ZergSound = require('__erm_zerg_hd_assets__/sound')
+local ZergSound = require('__erm_toss_hd_assets__/sound')
 unit['dying_sound'] = ZergSound.enemy_death('zealot', 1.0)
 
 
 --- Linking icons
 {
-    icon = "__erm_zerg_hd_assets__/graphics/entity/icons/units/zergling.png",
+    icon = "__erm_toss_hd_assets__/graphics/entity/icons/units/zealot.png",
     icon_size = 64,
 } 
 ```
