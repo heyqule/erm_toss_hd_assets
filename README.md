@@ -48,9 +48,15 @@ for index, _ in pairs(animation['layer']) do
 end
 projectile['animation'] = animation
 
+--- What if you don't like my animation setup.
+--- you can link the assets directly to your animation and then define your own parameters.
+{
+    filename = '__erm_toss_hd_assets__/graphics/entity/units/zealot/zealot-attack.png'
+}
+
 --- Include Sound, see the class for details 
-local ZergSound = require('__erm_toss_hd_assets__/sound')
-unit['dying_sound'] = ZergSound.enemy_death('zealot', 1.0)
+local TossSound = require('__erm_toss_hd_assets__/sound')
+unit['dying_sound'] = TossSound.enemy_death('zealot', 1.0)
 
 
 --- Linking icons
