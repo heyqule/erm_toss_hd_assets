@@ -136,12 +136,19 @@ function AnimationDB.get_team_mask_animation(entity_type, name, animation_type, 
     end
 end
 
-function AnimationDB.alter_team_color(animation_data, color)
+function AnimationDB.alter_team_color(animation_data, color, disable_mask, preserve_gloss)
     if animation_data['layers'] then
         for index, animation_node in pairs(animation_data['layers']) do
             if (animation_node.filename and string.find( animation_node.filename, '_teamcolour') ~= nil) or
                     (animation_node.filenames and string.find( animation_node.filenames[1], '_teamcolour') ~= nil) then
-                animation_data['layers'][index]['tint'] = color
+                if disable_mask then
+                    animation_data['layers'][index] = nil
+                else
+                    animation_data['layers'][index]['tint'] = color
+                    if preserve_gloss then
+                        animation_data['layers'][index]['blend_mode'] = 'additive-soft'
+                    end
+                end
             end
         end
     end
