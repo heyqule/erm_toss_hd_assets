@@ -14,8 +14,8 @@ return {
     run = {
         main =                     {
             filename = "__erm_toss_hd_assets__/graphics/entity/units/corsair/corsair-run.png",
-            width = 250,
-            height = 234,
+            width = 248,
+            height = 232,
             frame_count = 1,
             repeat_count = 2,
             axially_symmetrical = false,
