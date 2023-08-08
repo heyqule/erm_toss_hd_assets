@@ -28,6 +28,16 @@ return {
             draw_as_glow = true,
             blend_mode = "additive-soft",
             scale = 0.5
-        }
+        },
+        team =                     {
+            filename = "__erm_toss_hd_assets__/graphics/entity/buildings/stargate/stargate_teamcolour.png",
+            width = 522,
+            height = 642,
+            frame_count = 1,
+            repeat_count = 3,
+            animation_speed = 0.2,
+            direction_count = 1,
+            scale = 0.5,
+        },
     }
 }

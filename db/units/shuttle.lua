@@ -3,7 +3,7 @@
 --- Created by heyqule.
 --- DateTime: 7/20/2023 10:09 PM
 ---
-local ERM_UnitTint = require('__enemyracemanager__/lib/rig/unit_tint')
+
 return {
    run = {
        main =                     {
@@ -31,7 +31,18 @@ return {
            animation_speed = 0.5,
            blend_mode = "additive",
        --    shift = util.by_pixel(-4, -4),
-           tint = ERM_UnitTint.tint_blue_flame_burner()
+           tint = { r = 110, g = 210, b = 255, a = 255 }
+       },
+       team = {
+           filename = "__erm_toss_hd_assets__/graphics/entity/units/shuttle/shuttle-run_teamcolour.png",
+           width = 234,
+           height = 244,
+           frame_count = 1,
+           repeat_count = 2,
+           axially_symmetrical = false,
+           direction_count = 16,
+           scale = 0.325,
+           animation_speed = 0.5,
        }
    }
 }

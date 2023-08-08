@@ -15,7 +15,6 @@
 --- Created by heyqule.
 --- DateTime: 7/20/2023 10:09 PM
 ---
-local ERM_UnitTint = require('__enemyracemanager__/lib/rig/unit_tint')
 return {
     run = {
         main =                     {
@@ -41,7 +40,17 @@ return {
             scale = 0.4,
             animation_speed = 0.5,
             blend_mode = "additive",
-            tint = ERM_UnitTint.tint_blue_flame_burner()
+            tint = { r = 110, g = 210, b = 255, a = 255 }
+        },
+        team = {
+            filename = "__erm_toss_hd_assets__/graphics/entity/units/carrier/carrier-run_teamcolour.png",
+            width = 515,
+            height = 496,
+            frame_count = 1,
+            axially_symmetrical = false,
+            direction_count = 16,
+            scale = 0.4,
+            animation_speed = 0.5,
         }
     }
 }

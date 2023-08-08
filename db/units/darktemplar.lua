@@ -18,6 +18,16 @@ return {
         },
         shadow = {
             shift = { 0.2, 0 }
+        },
+        team = {
+            filename = "__erm_toss_hd_assets__/graphics/entity/units/darktemplar/darktemplar-attack_teamcolour.png",
+            width = 353,
+            height = 268,
+            frame_count = 9,
+            axially_symmetrical = false,
+            direction_count = 16,
+            scale = 0.3125,
+            animation_speed = 0.5
         }
     },
     run = {
@@ -33,6 +43,16 @@ return {
         },
         shadow = {
             shift = { 0.2, 0 }
+        },
+        team = {
+            filename = "__erm_toss_hd_assets__/graphics/entity/units/darktemplar/darktemplar-run_teamcolour.png",
+            width = 353,
+            height = 268,
+            frame_count = 8,
+            axially_symmetrical = false,
+            direction_count = 16,
+            scale = 0.3125,
+            animation_speed = 1,
         }
     }
 }

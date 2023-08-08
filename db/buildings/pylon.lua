@@ -28,11 +28,20 @@ return {
             draw_as_glow = true,
             blend_mode = "additive-soft",
             scale = 0.5
-        }
+        },
+        team =      {
+            filename = "__erm_toss_hd_assets__/graphics/entity/buildings/pylon/pylon_teamcolour.png",
+            width = 253,
+            height = 258,
+            frame_count = 1,
+            animation_speed = 0.2,
+            direction_count = 1,
+            scale = 0.5
+        },
     },
     integration_patch = {
         main =  {
-            filename = "__erm_toss_hd_assets__/graphics/entity/buildings/pylon/pylon_field1.png",
+            filename = "__erm_toss_hd_assets__/graphics/entity/buildings/pylon/pylon_field.png",
             width = 1000,
             height = 512,
             frame_count = 1,

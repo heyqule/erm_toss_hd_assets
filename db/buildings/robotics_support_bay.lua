@@ -28,6 +28,15 @@ return {
             scale = 0.5,
             draw_as_glow = true,
             blend_mode = "additive-soft",
-        }
+        },
+        team =                     {
+            filename = "__erm_toss_hd_assets__/graphics/entity/buildings/robotics_support_bay/robotics_support_bay_teamcolour.png",
+            width = 629,
+            height = 515,
+            frame_count = 1,
+            animation_speed = 0.2,
+            direction_count = 1,
+            scale = 0.5
+        },
     }
 }

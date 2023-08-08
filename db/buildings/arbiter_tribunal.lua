@@ -30,6 +30,16 @@ return {
             scale = 0.5,
             draw_as_glow = true,
             blend_mode = "additive-soft",
+        },
+        team = {
+            filename = "__erm_toss_hd_assets__/graphics/entity/buildings/arbiter_tribunal/arbiter_tribunal_teamcolour.png",
+            width = 381,
+            height = 508,
+            frame_count = 1,
+            repeat_count = 8,
+            animation_speed = 0.2,
+            direction_count = 1,
+            scale = 0.5
         }
     }
 }

@@ -19,7 +19,18 @@ return {
         },
         shadow = {
             shift = { 0.2, 0 }
-        }
+        },
+        main =                         {
+            filename = "__erm_toss_hd_assets__/graphics/entity/units/dragoon/dragoon-attack_teamcolour.png",
+            width = 388,
+            height = 376,
+            frame_count = 8,
+            axially_symmetrical = false,
+            direction_count = 1,
+            run_mode = "forward-then-backward",
+            scale = 0.325,
+            animation_speed = 0.5,
+        },
     },
     run = {
         main =                         {
@@ -34,6 +45,16 @@ return {
         },
         shadow = {
             shift = { 0.2, 0 }
+        },
+        team = {
+            filename = "__erm_toss_hd_assets__/graphics/entity/units/dragoon/dragoon-run_teamcolour.png",
+            width = 388,
+            height = 376,
+            frame_count = 9,
+            axially_symmetrical = false,
+            direction_count = 16,
+            scale = 0.325,
+            animation_speed = 0.5,
         }
     },
     corpse = {

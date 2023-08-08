@@ -29,6 +29,17 @@ return {
             scale = 0.375,
             animation_speed = 0.5,
             draw_as_glow = true,
+        },
+        team =    {
+            filename = "__erm_toss_hd_assets__/graphics/entity/units/scarab/scarab-run_teamcolour.png",
+            width = 74,
+            height = 83,
+            frame_count = 1,
+            repeat_count = 8,
+            axially_symmetrical = false,
+            direction_count = 16,
+            scale = 0.375,
+            animation_speed = 0.5
         }
     }
 }

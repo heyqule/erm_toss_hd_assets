@@ -28,6 +28,16 @@ return {
             scale = 0.5,
             draw_as_glow = true,
             blend_mode = "additive",
+        },
+        team = {
+            filename = "__erm_toss_hd_assets__/graphics/entity/buildings/nexus/nexus_teamcolour.png",
+            width = 756,
+            height = 908,
+            frame_count = 1,
+            repeat_count = 6,
+            animation_speed = 0.2,
+            direction_count = 1,
+            scale = 0.5
         }
     }
 }

@@ -28,6 +28,15 @@ return {
             scale = 0.5,
             draw_as_glow = true,
             blend_mode = "additive-soft",
-        }
+        },
+        team =     {
+            filename = "__erm_toss_hd_assets__/graphics/entity/buildings/citadel_adun/citadel_adun_teamcolour.png",
+            width = 640,
+            height = 518,
+            frame_count = 1,
+            animation_speed = 0.18,
+            direction_count = 1,
+            scale = 0.5
+        },
     }
 }

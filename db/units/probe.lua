@@ -18,6 +18,16 @@ return {
         },
         shadow = {
             shift = {0.2, 0}
+        },
+        team = {
+            filename = "__erm_toss_hd_assets__/graphics/entity/units/probe/probe-run.png",
+            width = 136,
+            height = 130,
+            frame_count = 1,
+            axially_symmetrical = false,
+            direction_count = 16,
+            scale =  0.3,
+            animation_speed = 0.2,
         }
     },
     attack = {

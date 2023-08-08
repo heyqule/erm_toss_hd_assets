@@ -24,6 +24,22 @@ return {
         },
         shadow = {
             shift = { 0.2, 0 }
+        },
+        team = {
+            filenames =
+            {
+                "__erm_toss_hd_assets__/graphics/entity/units/zealot/zealot-run_teamcolour-0.png",
+                "__erm_toss_hd_assets__/graphics/entity/units/zealot/zealot-run_teamcolour-1.png",
+            },
+            slice = 8,
+            lines_per_file = 8,
+            line_length = 8,
+            width = 570,
+            height = 566,
+            frame_count = 8,
+            direction_count = 16,
+            scale = 0.3125,
+            animation_speed = 0.5,
         }
     },
     attack = {
@@ -45,6 +61,22 @@ return {
         },
         shadow = {
             shift = { 0.2, 0 }
+        },
+        team = {
+            filenames =
+            {
+                "__erm_toss_hd_assets__/graphics/entity/units/zealot/zealot-attack_teamcolour-0.png",
+                "__erm_toss_hd_assets__/graphics/entity/units/zealot/zealot-attack_teamcolour-1.png",
+            },
+            slice = 5,
+            lines_per_file = 8,
+            line_length = 5,
+            width = 570,
+            height = 566,
+            frame_count = 5,
+            direction_count = 16,
+            scale = 0.3125,
+            animation_speed = 0.5,
         }
     },
 }

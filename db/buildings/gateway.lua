@@ -28,6 +28,15 @@ return {
             scale = 0.5,
             draw_as_glow = true,
             blend_mode = "additive-soft",
+        },
+        team =      {
+            filename = "__erm_toss_hd_assets__/graphics/entity/buildings/gateway/gateway_teamcolour.png",
+            width = 522,
+            height = 673,
+            frame_count = 1,
+            animation_speed = 0.2,
+            direction_count = 1,
+            scale = 0.5
         }
     }
 }

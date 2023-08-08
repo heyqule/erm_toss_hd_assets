@@ -30,6 +30,22 @@ return {
         },
         shadow = {
             shift = { 0.2, 0 }
+        },
+        team = {
+            filenames =
+            {
+                "__erm_toss_hd_assets__/graphics/entity/units/templar/templar-run_teamcolour-0.png",
+                "__erm_toss_hd_assets__/graphics/entity/units/templar/templar-run_teamcolour-1.png",
+            },
+            slice = 12,
+            lines_per_file = 8,
+            line_length = 12,
+            width = 669,
+            height = 707,
+            frame_count = 12,
+            direction_count = 16,
+            scale = 0.325,
+            animation_speed = 0.5,
         }
     },
     attack = {
@@ -51,6 +67,22 @@ return {
         },
         shadow = {
             shift = { 0.2, 0 }
+        },
+        team = {
+            filenames =
+            {
+                "__erm_toss_hd_assets__/graphics/entity/units/templar/templar-attack_teamcolour-0.png",
+                "__erm_toss_hd_assets__/graphics/entity/units/templar/templar-attack_teamcolour-1.png",
+            },
+            slice = 5,
+            lines_per_file = 8,
+            line_length = 5,
+            width = 669,
+            height = 707,
+            frame_count = 5,
+            direction_count = 16,
+            scale = 0.325,
+            animation_speed = 0.5,
         }
     },
 }

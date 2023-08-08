@@ -9,14 +9,14 @@ return {
         main = {
             filenames =
             {
-                "__erm_toss_hd_assets__/graphics/entity/units/archon/archon-effect-0.png",
-                "__erm_toss_hd_assets__/graphics/entity/units/archon/archon-effect-1.png",
+                "__erm_toss_hd_assets__/graphics/entity/units/archon/archon-ball-0.png",
+                "__erm_toss_hd_assets__/graphics/entity/units/archon/archon-ball-1.png",
             },
             slice = 10,
             lines_per_file = 8,
             line_length = 10,
-            width = 462,
-            height = 461,
+            width = 420,
+            height = 414,
             frame_count = 10,
             repeat_count = 2,
             direction_count = 16,
@@ -40,22 +40,59 @@ return {
             direction_count = 16,
             scale = 0.325,
             animation_speed = 0.5,
-            draw_as_glow = true,
             shift = util.by_pixel(-3, 0)
         },
+        effect = {
+            filenames =
+            {
+                "__erm_toss_hd_assets__/graphics/entity/units/archon/archon-orbiters-0.png",
+                "__erm_toss_hd_assets__/graphics/entity/units/archon/archon-orbiters-1.png",
+            },
+            width = 420,
+            height = 414,
+            slice = 10,
+            lines_per_file = 8,
+            line_length = 10,
+            frame_count = 10,
+            repeat_count = 2,
+            axially_symmetrical = false,
+            direction_count = 16,
+            scale = 0.325 * 1.25,
+            animation_speed = 1,
+            draw_as_glow = true
+        },
+        team = {
+            filenames =
+            {
+                "__erm_toss_hd_assets__/graphics/entity/units/archon/archon-orbiters_teamcolour-0.png",
+                "__erm_toss_hd_assets__/graphics/entity/units/archon/archon-orbiters_teamcolour-1.png",
+            },
+            width = 420,
+            height = 414,
+            slice = 10,
+            lines_per_file = 8,
+            line_length = 10,
+            frame_count = 10,
+            repeat_count = 2,
+            axially_symmetrical = false,
+            direction_count = 16,
+            scale = 0.325 * 1.25,
+            animation_speed = 1,
+            draw_as_glow = true
+        }
     },
     attack = {
         main = {
             filenames =
             {
-                "__erm_toss_hd_assets__/graphics/entity/units/archon/archon-effect-0.png",
-                "__erm_toss_hd_assets__/graphics/entity/units/archon/archon-effect-1.png",
+                "__erm_toss_hd_assets__/graphics/entity/units/archon/archon-ball-0.png",
+                "__erm_toss_hd_assets__/graphics/entity/units/archon/archon-ball-1.png",
             },
             slice = 10,
             lines_per_file = 8,
             line_length = 10,
-            width = 462,
-            height = 461,
+            width = 420,
+            height = 414,
             frame_count = 10,
             direction_count = 16,
             scale = 0.325 * 1.25,
@@ -80,6 +117,42 @@ return {
             animation_speed = 0.25,
             draw_as_glow = true,
             shift = util.by_pixel(-3, 0)
+        },
+        effect = {
+            filenames =
+            {
+                "__erm_toss_hd_assets__/graphics/entity/units/archon/archon-orbiters-0.png",
+                "__erm_toss_hd_assets__/graphics/entity/units/archon/archon-orbiters-1.png",
+            },
+            width = 420,
+            height = 414,
+            slice = 10,
+            lines_per_file = 8,
+            line_length = 10,
+            frame_count = 10,
+            axially_symmetrical = false,
+            direction_count = 16,
+            scale = 0.325 * 1.25,
+            animation_speed = 1,
+            draw_as_glow = true
+        },
+        team = {
+            filenames =
+            {
+                "__erm_toss_hd_assets__/graphics/entity/units/archon/archon-orbiters_teamcolour-0.png",
+                "__erm_toss_hd_assets__/graphics/entity/units/archon/archon-orbiters_teamcolour-1.png",
+            },
+            width = 420,
+            height = 414,
+            slice = 10,
+            lines_per_file = 8,
+            line_length = 10,
+            frame_count = 10,
+            axially_symmetrical = false,
+            direction_count = 16,
+            scale = 0.325 * 1.25,
+            animation_speed = 1,
+            draw_as_glow = true
         }
     },
     attack_attachment = {

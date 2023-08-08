@@ -24,13 +24,13 @@ return {
         explosion = {
             glow = {
                 filename = "__erm_toss_hd_assets__/graphics/entity/units/air-death/large-air-death.png",
-                width = 910,
-                height = 1147,
+                width = 899,
+                height = 1057,
                 frame_count = 9,
                 direction_count = 1,
                 axially_symmetrical = false,
                 scale = 0.5,
-                animation_speed = 0.4,
+                animation_speed = 0.2,
             }
         }
     },
@@ -47,6 +47,9 @@ return {
                 animation_speed = 0.4,
             }
         }
+    },
+    extra_large_air_death = {
+
     },
     zealot = {
         explosion = {
@@ -79,7 +82,7 @@ return {
     small_building = {
         explosion = {
            glow =  {
-                filename = "__erm_toss_hd_assets__/graphics/entity/buildings/death/small-building-explosion.png",
+                filename = "__erm_toss_hd_assets__/graphics/entity/buildings/building_death/small-building-explosion.png",
                 width = 910,
                 height = 1147,
                 frame_count = 9,
@@ -95,42 +98,42 @@ return {
                 stripes =
                 {
                     {
-                        filename = "__erm_toss_hd_assets__/graphics/entity/buildings/death/large-building-explosion-0.png",
+                        filename = "__erm_toss_hd_assets__/graphics/entity/buildings/building_death/large-building-explosion-0.png",
                         width_in_frames = 2,
                         height_in_frames = 1
                     },
                     {
-                        filename = "__erm_toss_hd_assets__/graphics/entity/buildings/death/large-building-explosion-1.png",
+                        filename = "__erm_toss_hd_assets__/graphics/entity/buildings/building_death/large-building-explosion-1.png",
                         width_in_frames = 2,
                         height_in_frames = 1
                     },
                     {
-                        filename = "__erm_toss_hd_assets__/graphics/entity/buildings/death/large-building-explosion-2.png",
+                        filename = "__erm_toss_hd_assets__/graphics/entity/buildings/building_death/large-building-explosion-2.png",
                         width_in_frames = 2,
                         height_in_frames = 1
                     },
                     {
-                        filename = "__erm_toss_hd_assets__/graphics/entity/buildings/death/large-building-explosion-3.png",
+                        filename = "__erm_toss_hd_assets__/graphics/entity/buildings/building_death/large-building-explosion-3.png",
                         width_in_frames = 2,
                         height_in_frames = 1
                     },
                     {
-                        filename = "__erm_toss_hd_assets__/graphics/entity/buildings/death/large-building-explosion-4.png",
+                        filename = "__erm_toss_hd_assets__/graphics/entity/buildings/building_death/large-building-explosion-4.png",
                         width_in_frames = 2,
                         height_in_frames = 1
                     },
                     {
-                        filename = "__erm_toss_hd_assets__/graphics/entity/buildings/death/large-building-explosion-5.png",
+                        filename = "__erm_toss_hd_assets__/graphics/entity/buildings/building_death/large-building-explosion-5.png",
                         width_in_frames = 2,
                         height_in_frames = 1
                     },
                     {
-                        filename = "__erm_toss_hd_assets__/graphics/entity/buildings/death/large-building-explosion-6.png",
+                        filename = "__erm_toss_hd_assets__/graphics/entity/buildings/building_death/large-building-explosion-6.png",
                         width_in_frames = 2,
                         height_in_frames = 1
                     },
                     {
-                        filename = "__erm_toss_hd_assets__/graphics/entity/buildings/death/large-building-explosion-7.png",
+                        filename = "__erm_toss_hd_assets__/graphics/entity/buildings/building_death/large-building-explosion-7.png",
                         width_in_frames = 2,
                         height_in_frames = 1
                     }
@@ -147,7 +150,7 @@ return {
     small_rubble = {
         explosion = {
             main =  {
-                filename = "__erm_toss_hd_assets__/graphics/entity/buildings/death/small_rubble.png",
+                filename = "__erm_toss_hd_assets__/graphics/entity/buildings/building_death/small_rubble.png",
                 variation_count = 1,
                 width = 353,
                 height = 376,
@@ -160,7 +163,7 @@ return {
     large_rubble = {
         explosion = {
             main =  {
-                filename = "__erm_toss_hd_assets__/graphics/entity/buildings/death/large_rubble.png",
+                filename = "__erm_toss_hd_assets__/graphics/entity/buildings/building_death/large_rubble.png",
                 width = 502,
                 height = 533,
                 variation_count = 1,

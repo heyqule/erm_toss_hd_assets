@@ -9,14 +9,14 @@ return {
         main = {
             filenames =
             {
-                "__erm_toss_hd_assets__/graphics/entity/units/darkarchon/darkarchon-effect-0.png",
-                "__erm_toss_hd_assets__/graphics/entity/units/darkarchon/darkarchon-effect-1.png",
+                "__erm_toss_hd_assets__/graphics/entity/units/darkarchon/darkarchon-ball-0.png",
+                "__erm_toss_hd_assets__/graphics/entity/units/darkarchon/darkarchon-ball-1.png",
             },
             slice = 10,
             lines_per_file = 8,
             line_length = 10,
-            width = 759,
-            height = 759,
+            width = 380,
+            height = 380,
             frame_count = 10,
             repeat_count = 2,
             direction_count = 16,
@@ -38,10 +38,48 @@ return {
             frame_count = 4,
             repeat_count = 5,
             direction_count = 16,
-            scale = 0.325 * 1.25,
+            scale = 0.325,
             animation_speed = 0.5,
             draw_as_glow = true,
             shift = util.by_pixel(-3, 0)
         },
+        effect = {
+            filenames =
+            {
+                "__erm_toss_hd_assets__/graphics/entity/units/darkarchon/darkarchon-orbiters-0.png",
+                "__erm_toss_hd_assets__/graphics/entity/units/darkarchon/darkarchon-orbiters-1.png",
+            },
+            width = 380,
+            height = 380,
+            slice = 10,
+            lines_per_file = 8,
+            line_length = 10,
+            frame_count = 10,
+            repeat_count = 2,
+            axially_symmetrical = false,
+            direction_count = 16,
+            scale = 0.325 * 1.25,
+            animation_speed = 1,
+            draw_as_glow = true
+        },
+        team = {
+            filenames =
+            {
+                "__erm_toss_hd_assets__/graphics/entity/units/darkarchon/darkarchon-orbiters_teamcolour-0.png",
+                "__erm_toss_hd_assets__/graphics/entity/units/darkarchon/darkarchon-orbiters_teamcolour-1.png",
+            },
+            width = 380,
+            height = 380,
+            slice = 10,
+            lines_per_file = 8,
+            line_length = 10,
+            frame_count = 10,
+            repeat_count = 2,
+            axially_symmetrical = false,
+            direction_count = 16,
+            scale = 0.325 * 1.25,
+            animation_speed = 1,
+            draw_as_glow = true
+        }
     }
 }

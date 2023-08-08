@@ -29,6 +29,16 @@ return {
             draw_as_glow = true,
             blend_mode = "additive-soft",
             scale = 0.5
+        },
+        team = {
+            filename = "__erm_toss_hd_assets__/graphics/entity/buildings/templar_archive/templar_archive_teamcolour.png",
+            variation_count = 1,
+            width = 642,
+            height = 787,
+            frame_count = 1,
+            line_length = 1,
+            animation_speed = 0.2,
+            scale = 0.5
         }
     }
 }

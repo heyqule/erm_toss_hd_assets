@@ -19,6 +19,16 @@ return {
         shadow = {
             shift = { 4, 0 }
         },
+        team = {
+            filename = "__erm_toss_hd_assets__/graphics/entity/units/interceptor/interceptor_teamcolour.png",
+            width = 141,
+            height = 136,
+            frame_count = 1,
+            axially_symmetrical = false,
+            direction_count = 16,
+            scale = 0.375,
+            animation_speed = 0.5,
+        }
     },
     attack = {
         main =                         {
@@ -35,5 +45,16 @@ return {
         shadow = {
             shift = { 4, 0 }
         },
+        team = {
+            filename = "__erm_toss_hd_assets__/graphics/entity/units/interceptor/interceptor_teamcolour.png",
+            width = 141,
+            height = 136,
+            frame_count = 1,
+            repeat_count = 3,
+            axially_symmetrical = false,
+            direction_count = 16,
+            scale = 0.375,
+            animation_speed = 0.5,
+        }
     }
 }

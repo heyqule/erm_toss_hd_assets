@@ -28,7 +28,16 @@ return {
             animation_speed = 0.2,
             blend_mode = "additive-soft",
             draw_as_glow = true,
-        }
+        },
+        team =     {
+            filename = "__erm_toss_hd_assets__/graphics/entity/buildings/cannon/cannon_teamcolour.png",
+            width = 256,
+            height = 518,
+            frame_count = 1,
+            direction_count = 1,
+            animation_speed = 0.2,
+            scale = 0.5,
+        },
     },
     attack = {
         main =     {
@@ -55,6 +64,16 @@ return {
             animation_speed = 0.2,
             blend_mode = "additive-soft",
             draw_as_glow = true,
+        },
+        team = {
+            filename = "__erm_toss_hd_assets__/graphics/entity/buildings/cannon/cannon_attack_teamcolour.png",
+            width = 258,
+            height = 520,
+            frame_count = 3,
+            direction_count = 1,
+            scale = 0.5,
+            run_mode = "forward-then-backward",
+            animation_speed = 0.2,
         }
     }
 }

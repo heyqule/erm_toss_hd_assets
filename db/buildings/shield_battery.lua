@@ -29,6 +29,16 @@ return {
             scale = 0.5,
             draw_as_glow = true,
             blend_mode = "additive-soft",
+        },
+        team = {
+            filename = "__erm_toss_hd_assets__/graphics/entity/buildings/shield_battery/shield_battery_teamcolour.png",
+            variation_count = 1,
+            width = 375,
+            height = 253,
+            frame_count = 1,
+            direction_count = 1,
+            animation_speed = 0.2,
+            scale = 0.5
         }
     },
     attack = {
@@ -57,6 +67,17 @@ return {
             draw_as_glow = true,
             blend_mode = "additive-soft",
             shift = util.by_pixel(0,-8)
+        },
+        team = {
+            filename = "__erm_toss_hd_assets__/graphics/entity/buildings/shield_battery/shield_battery_teamcolour.png",
+            variation_count = 1,
+            width = 375,
+            height = 253,
+            frame_count = 1,
+            repeat_count = 3,
+            direction_count = 1,
+            animation_speed = 0.2,
+            scale = 0.5
         }
     }
 }
