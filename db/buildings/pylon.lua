@@ -18,15 +18,13 @@ return {
         shadow = {
             shift = { 0.25, 0.1 },
         },
-        glow = {
+        light = {
             filename = "__erm_toss_hd_assets__/graphics/entity/buildings/pylon/pylon_mask.png",
             width = 253,
             height = 258,
             frame_count = 1,
             animation_speed = 0.2,
             direction_count = 1,
-            draw_as_glow = true,
-            blend_mode = "additive-soft",
             scale = 0.5
         },
         team =      {
