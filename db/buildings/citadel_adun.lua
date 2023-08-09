@@ -11,7 +11,7 @@ return {
             width = 640,
             height = 518,
             frame_count = 1,
-            animation_speed = 0.18,
+            animation_speed = 0.2,
             direction_count = 1,
             scale = 0.5
         },
@@ -23,7 +23,7 @@ return {
             width = 640,
             height = 518,
             frame_count = 1,
-            animation_speed = 0.18,
+            animation_speed = 0.2,
             direction_count = 1,
             scale = 0.5,
             draw_as_glow = true,

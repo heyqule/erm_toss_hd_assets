@@ -15,21 +15,19 @@ return {
                      width = 91,
                      height = 102,
                      scale = 0.375,
-                     animation_speed = 0.5,
+                     animation_speed = 0.4,
              },
              shadow = {
                  shift = {4, 0}
              },
              glow =  {
                  filename = "__erm_toss_hd_assets__/graphics/entity/projectiles/scout/rocket_trail.png",
-                 draw_as_glow = true,
                  frame_count = 8,
                  direction_count = 1,
-                 animation_speed = 0.5,
+                 animation_speed = 0.4,
                  width = 800,
                  height = 790,
                  scale = 0.375,
-                 priority = "high",
                  blend_mode = "additive"
              }
         }
@@ -42,7 +40,7 @@ return {
                 width = 1216,
                 height = 1208,
                 scale = 0.375,
-                animation_speed = 0.5,
+                animation_speed = 0.4,
             }
         },
         explosion = {
@@ -52,7 +50,7 @@ return {
                 height = 365,
                 scale = 0.25,
                 frame_count = 14,
-                animation_speed = 0.5,
+                animation_speed = 0.4,
             }
         }
     },
@@ -64,7 +62,7 @@ return {
                 width = 1216,
                 height = 1208,
                 scale = 0.375,
-                animation_speed = 0.5,
+                animation_speed = 0.4,
             }
         },
         explosion = {
@@ -74,7 +72,7 @@ return {
                 height = 521,
                 frame_count = 13,
                 run_mode = "forward-then-backward",
-                animation_speed = 0.5,
+                animation_speed = 0.4,
                 scale = 0.625,
             }
         }
@@ -99,7 +97,7 @@ return {
                 height = 226,
                 scale = 0.5,
                 frame_count = 8,
-                animation_speed = 0.5,
+                animation_speed = 0.4,
             }
         }
     },
@@ -111,7 +109,7 @@ return {
                 height = 456,
                 scale = 0.75,
                 frame_count = 6,
-                animation_speed = 0.5,
+                animation_speed = 0.4,
             }
         }
     },
@@ -119,7 +117,6 @@ return {
         explosion =  {
             glow = {
                 filename = "__erm_toss_hd_assets__/graphics/entity/projectiles/shield_battery_ability.png",
-                priority = "extra-high",
                 width = 209,
                 height = 168,
                 scale = 1,
@@ -168,7 +165,6 @@ return {
         explosion = {
             glow =  {
                 filename = "__erm_toss_hd_assets__/graphics/entity/projectiles/archon_attack/archon-hit-effect.png",
-                priority = "extra-high",
                 width = 375,
                 height = 365,
                 frame_count = 14,
@@ -184,7 +180,7 @@ return {
                 width = 260,
                 height = 264,
                 frame_count = 22,
-                animation_speed = 0.5,
+                animation_speed = 0.4,
                 scale = 0.65
             }
         }
@@ -197,7 +193,7 @@ return {
                 height = 241,
                 frame_count = 25,
                 repeat_count = 10,
-                animation_speed = 0.5,
+                animation_speed = 0.4,
                 scale = 0.65,
             }
         }

@@ -5,7 +5,7 @@
 ---
 --- This file lists all callable animation functions.
 
-AnimationDB = require('animation_db')
+local AnimationDB = require('animation_db')
 
 --- Death animations
 AnimationDB.get_layered_animations('death','small_air','explosion')
@@ -68,6 +68,7 @@ AnimationDB.get_layered_animations('units', 'corsair', 'attack')
 AnimationDB.get_layered_animations('units', 'darkarchon', 'run')
 AnimationDB.get_layered_animations('units', 'dragoon', 'run')
 AnimationDB.get_layered_animations('units', 'dragoon', 'attack')
+AnimationDB.get_single_animation('units', 'dragoon', 'corpse')
 AnimationDB.get_layered_animations('units', 'interceptor', 'run')
 AnimationDB.get_layered_animations('units', 'interceptor', 'attack')
 AnimationDB.get_layered_animations('units', 'probe', 'run')
@@ -76,7 +77,7 @@ AnimationDB.get_layered_animations('units', 'reaver', 'run')
 AnimationDB.get_layered_animations('units', 'scarab', 'run')
 AnimationDB.get_layered_animations('units', 'scout', 'run')
 AnimationDB.get_layered_animations('units', 'scout', 'attack')
-AnimationDB.get_layered_animations('units', 'shuttle', 'attack')
+AnimationDB.get_layered_animations('units', 'shuttle', 'run')
 AnimationDB.get_layered_animations('units', 'templar', 'run')
 AnimationDB.get_layered_animations('units', 'templar', 'attack')
 AnimationDB.get_layered_animations('units', 'darktemplar', 'run')

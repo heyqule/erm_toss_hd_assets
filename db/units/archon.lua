@@ -21,7 +21,7 @@ return {
             repeat_count = 2,
             direction_count = 16,
             scale = 0.325 * 1.25,
-            animation_speed = 0.5,
+            animation_speed = 0.4,
             draw_as_glow = true
         },
         glow = {
@@ -39,7 +39,7 @@ return {
             repeat_count = 5,
             direction_count = 16,
             scale = 0.325,
-            animation_speed = 0.5,
+            animation_speed = 0.4,
             shift = util.by_pixel(-3, 0)
         },
         effect = {
@@ -58,7 +58,7 @@ return {
             axially_symmetrical = false,
             direction_count = 16,
             scale = 0.325 * 1.25,
-            animation_speed = 1,
+            animation_speed = 0.4,
             draw_as_glow = true
         },
         team = {
@@ -77,7 +77,7 @@ return {
             axially_symmetrical = false,
             direction_count = 16,
             scale = 0.325 * 1.25,
-            animation_speed = 1,
+            animation_speed = 0.4,
             draw_as_glow = true
         }
     },
@@ -96,7 +96,7 @@ return {
             frame_count = 10,
             direction_count = 16,
             scale = 0.325 * 1.25,
-            animation_speed = 0.5,
+            animation_speed = 0.4,
             draw_as_glow = true
         },
         glow = {
@@ -114,7 +114,7 @@ return {
             axially_symmetrical = false,
             direction_count = 16,
             scale = 0.325 * 1.25,
-            animation_speed = 0.25,
+            animation_speed = 0.4,
             draw_as_glow = true,
             shift = util.by_pixel(-3, 0)
         },
@@ -133,7 +133,7 @@ return {
             axially_symmetrical = false,
             direction_count = 16,
             scale = 0.325 * 1.25,
-            animation_speed = 1,
+            animation_speed = 0.4,
             draw_as_glow = true
         },
         team = {
@@ -151,7 +151,7 @@ return {
             axially_symmetrical = false,
             direction_count = 16,
             scale = 0.325 * 1.25,
-            animation_speed = 1,
+            animation_speed = 0.4,
             draw_as_glow = true
         }
     },
@@ -172,7 +172,7 @@ return {
             axially_symmetrical = false,
             direction_count = 16,
             scale = 0.325,
-            animation_speed = 0.25,
+            animation_speed = 0.4,
             draw_as_glow = true,
             shift = util.by_pixel(-3, 0)
         }

@@ -20,7 +20,7 @@ return {
             frame_count = 8,
             direction_count = 16,
             scale = 0.3125,
-            animation_speed = 0.5,
+            animation_speed = 0.4,
         },
         shadow = {
             shift = { 0.2, 0 }
@@ -39,7 +39,7 @@ return {
             frame_count = 8,
             direction_count = 16,
             scale = 0.3125,
-            animation_speed = 0.5,
+            animation_speed = 0.4,
         }
     },
     attack = {
@@ -57,7 +57,7 @@ return {
             frame_count = 5,
             direction_count = 16,
             scale = 0.3125,
-            animation_speed = 0.5,
+            animation_speed = 0.4,
         },
         shadow = {
             shift = { 0.2, 0 }
@@ -76,7 +76,7 @@ return {
             frame_count = 5,
             direction_count = 16,
             scale = 0.3125,
-            animation_speed = 0.5,
+            animation_speed = 0.4,
         }
     },
 }

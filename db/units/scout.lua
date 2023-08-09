@@ -16,7 +16,7 @@ return {
             axially_symmetrical = false,
             direction_count = 16,
             scale = 0.325,
-            animation_speed = 1,
+            animation_speed = 0.4,
         },
         shadow = {
             shift = { 4, 0 }
@@ -29,7 +29,7 @@ return {
             axially_symmetrical = false,
             direction_count = 16,
             scale = 0.325,
-            animation_speed = 1,
+            animation_speed = 0.4,
             blend_mode = "additive",
           --  shift = util.by_pixel(-6, -2),
             tint = { r = 110, g = 210, b = 255, a = 255 },
@@ -43,7 +43,7 @@ return {
             axially_symmetrical = false,
             direction_count = 16,
             scale = 0.325,
-            animation_speed = 1,
+            animation_speed = 0.4,
         },
     },
     attack = {
@@ -55,7 +55,7 @@ return {
             axially_symmetrical = false,
             direction_count = 16,
             scale = 0.325,
-            animation_speed = 0.5,
+            animation_speed = 0.4,
         },
         shadow = {
             shift = { 4, 0 }
@@ -68,7 +68,7 @@ return {
             axially_symmetrical = false,
             direction_count = 16,
             scale = 0.325,
-            animation_speed = 0.5,
+            animation_speed = 0.4,
             blend_mode = "additive",
           --  shift = util.by_pixel(-6, -2),
             tint = { r = 110, g = 210, b = 255, a = 255 },
@@ -82,7 +82,7 @@ return {
             axially_symmetrical = false,
             direction_count = 16,
             scale = 0.325,
-            animation_speed = 1,
+            animation_speed = 0.4,
         },
     }
 }

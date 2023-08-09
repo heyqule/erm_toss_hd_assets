@@ -25,7 +25,7 @@ return {
             axially_symmetrical = false,
             direction_count = 16,
             scale = 0.4,
-            animation_speed = 0.5,
+            animation_speed = 0.4,
         },
         shadow = {
             shift = { 6, 0 }
@@ -38,7 +38,7 @@ return {
             axially_symmetrical = false,
             direction_count = 16,
             scale = 0.4,
-            animation_speed = 0.5,
+            animation_speed = 0.4,
             blend_mode = "additive",
             tint = { r = 110, g = 210, b = 255, a = 255 }
         },
@@ -50,7 +50,7 @@ return {
             axially_symmetrical = false,
             direction_count = 16,
             scale = 0.4,
-            animation_speed = 0.5,
+            animation_speed = 0.4,
         }
     }
 }
