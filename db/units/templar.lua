@@ -64,6 +64,7 @@ return {
             direction_count = 16,
             scale = 0.325,
             animation_speed = 0.4,
+            draw_as_glow = true
         },
         shadow = {
             shift = { 0.2, 0 }

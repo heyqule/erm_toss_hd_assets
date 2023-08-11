@@ -5,7 +5,7 @@
 ---
 
 return {
-    run = {
+    folded = {
         main =     {
             filename = "__erm_toss_hd_assets__/graphics/entity/buildings/cannon/cannon.png",
             width = 256,
@@ -16,7 +16,7 @@ return {
             scale = 0.5,
         },
         shadow = {
-            shift = { 0.25, 0.1 },
+            shift = { 0.25, 0 },
         },
         glow =     {
             filename = "__erm_toss_hd_assets__/graphics/entity/buildings/cannon/cannon_mask.png",
@@ -51,7 +51,7 @@ return {
             animation_speed = 0.2,
         },
         shadow = {
-            shift = { 0.25, 0.1 },
+            shift = { 0.25, 0 },
         },
         glow =      {
             filename = "__erm_toss_hd_assets__/graphics/entity/buildings/cannon/cannon_attack_mask.png",

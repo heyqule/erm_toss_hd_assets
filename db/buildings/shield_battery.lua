@@ -5,7 +5,7 @@
 ---
 
 return {
-    run = {
+    folded = {
         main =             {
             filename = "__erm_toss_hd_assets__/graphics/entity/buildings/shield_battery/shield_battery.png",
             variation_count = 1,
@@ -17,7 +17,7 @@ return {
             scale = 0.5
         },
         shadow = {
-            shift = { 0.25, 0.1 },
+            shift = { 0.25, 0 },
         },
         glow =             {
             filename = "__erm_toss_hd_assets__/graphics/entity/buildings/shield_battery/shield_battery_mask.png",
@@ -54,7 +54,7 @@ return {
             scale = 0.5
         },
         shadow = {
-            shift = { 0.25, 0.1 },
+            shift = { 0.25, 0 },
         },
         glow =             {
             filename = "__erm_toss_hd_assets__/graphics/entity/buildings/shield_battery/shield_battery_effect.png",

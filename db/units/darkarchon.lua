@@ -43,25 +43,25 @@ return {
             draw_as_glow = true,
             shift = util.by_pixel(-3, 0)
         },
-        effect = {
-            filenames =
-            {
-                "__erm_toss_hd_assets__/graphics/entity/units/darkarchon/darkarchon-orbiters-0.png",
-                "__erm_toss_hd_assets__/graphics/entity/units/darkarchon/darkarchon-orbiters-1.png",
-            },
-            width = 380,
-            height = 380,
-            slice = 10,
-            lines_per_file = 8,
-            line_length = 10,
-            frame_count = 10,
-            repeat_count = 2,
-            axially_symmetrical = false,
-            direction_count = 16,
-            scale = 0.325 * 1.25,
-            animation_speed = 0.4,
-            draw_as_glow = true
-        },
+        --effect = {
+        --    filenames =
+        --    {
+        --        "__erm_toss_hd_assets__/graphics/entity/units/darkarchon/darkarchon-orbiters-0.png",
+        --        "__erm_toss_hd_assets__/graphics/entity/units/darkarchon/darkarchon-orbiters-1.png",
+        --    },
+        --    width = 380,
+        --    height = 380,
+        --    slice = 10,
+        --    lines_per_file = 8,
+        --    line_length = 10,
+        --    frame_count = 10,
+        --    repeat_count = 2,
+        --    axially_symmetrical = false,
+        --    direction_count = 16,
+        --    scale = 0.325 * 1.25,
+        --    animation_speed = 0.4,
+        --    draw_as_glow = true
+        --},
         team = {
             filenames =
             {

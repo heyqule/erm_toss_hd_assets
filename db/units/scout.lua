@@ -31,7 +31,6 @@ return {
             scale = 0.325,
             animation_speed = 0.4,
             blend_mode = "additive",
-          --  shift = util.by_pixel(-6, -2),
             tint = { r = 110, g = 210, b = 255, a = 255 },
         },
         team = {
@@ -60,7 +59,18 @@ return {
         shadow = {
             shift = { 4, 0 }
         },
-        glow =                         {
+        glow = {
+            filename = "__erm_toss_hd_assets__/graphics/entity/units/scout/scout-attack_mask.png",
+            width = 306,
+            height = 284,
+            frame_count = 2,
+            axially_symmetrical = false,
+            direction_count = 16,
+            scale = 0.325,
+            animation_speed = 0.4,
+            blend_mode = "additive",
+        },
+        effect =                         {
             filename = "__erm_toss_hd_assets__/graphics/entity/units/scout/scout-effect.png",
             width = 346,
             height = 308,
@@ -70,7 +80,7 @@ return {
             scale = 0.325,
             animation_speed = 0.4,
             blend_mode = "additive",
-          --  shift = util.by_pixel(-6, -2),
+            draw_as_glow = true,
             tint = { r = 110, g = 210, b = 255, a = 255 },
         },
         team = {

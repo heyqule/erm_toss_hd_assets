@@ -17,7 +17,7 @@ return {
             scale = 0.5
         },
         shadow = {
-            shift = { 0.25, 0.1 },
+            shift = { 0.25, 0 },
         },
         glow =     {
             filename = "__erm_toss_hd_assets__/graphics/entity/buildings/arbiter_tribunal/arbiter_tribunal_mask.png",

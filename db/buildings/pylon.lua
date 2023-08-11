@@ -16,7 +16,7 @@ return {
             scale = 0.5
         },
         shadow = {
-            shift = { 0.25, 0.1 },
+            shift = { 0.25, 0 },
         },
         light = {
             filename = "__erm_toss_hd_assets__/graphics/entity/buildings/pylon/pylon_mask.png",
@@ -43,7 +43,7 @@ return {
             width = 1000,
             height = 512,
             frame_count = 1,
-            animation_speed = 0.18,
+            animation_speed = 0.2,
             direction_count = 1,
             blend_mode = "additive",
             tint = {100, 100, 255},
