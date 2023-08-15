@@ -130,7 +130,7 @@ return {
             glow =  {
                 filename = "__erm_toss_hd_assets__/graphics/entity/projectiles/scarab_explosion.png",
                 width = 835,
-                height = 2176,
+                height = 1088,
                 frame_count = 8,
                 animation_speed = 0.4,
                 scale = 0.4
