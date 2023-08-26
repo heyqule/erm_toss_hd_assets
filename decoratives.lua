@@ -18,8 +18,7 @@ data:extend({
         collision_box = { { -6, -4 }, { 6, 4 } },
         collision_mask = { "water-tile", "colliding-with-tiles-only" },
         render_layer = final_render_layer,
-        tile_layer = 100,
-        decal_overdraw_priority = 500,
+        tile_layer = 59,
         pictures = {
             {
                 filename = "__erm_toss_hd_assets__/graphics/decorative/tosscreep-decal/tosscreep-decal-00.png",
