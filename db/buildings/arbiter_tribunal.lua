@@ -36,7 +36,7 @@ return {
             width = 381,
             height = 508,
             frame_count = 1,
-            repeat_count = 8,
+            repeat_count = 6,
             animation_speed = 0.2,
             direction_count = 1,
             scale = 0.5

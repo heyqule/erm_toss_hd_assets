@@ -20,16 +20,16 @@ return {
              shadow = {
                  shift = {4, 0}
              },
-             glow =  {
-                 filename = "__erm_toss_hd_assets__/graphics/entity/projectiles/scout/rocket_trail.png",
-                 frame_count = 8,
-                 direction_count = 1,
-                 animation_speed = 0.4,
-                 width = 800,
-                 height = 790,
-                 scale = 0.375,
-                 blend_mode = "additive"
-             }
+             --glow =  {
+             --    filename = "__erm_toss_hd_assets__/graphics/entity/projectiles/scout/rocket_trail.png",
+             --    frame_count = 8,
+             --    direction_count = 1,
+             --    animation_speed = 0.4,
+             --    width = 800,
+             --    height = 790,
+             --    scale = 0.375,
+             --    blend_mode = "additive"
+             --}
         }
     },
     dragoon = {
