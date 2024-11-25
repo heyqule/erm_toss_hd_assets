@@ -20,7 +20,7 @@ return {
             shift = {0.2, 0}
         },
         team = {
-            filename = "__erm_toss_hd_assets__/graphics/entity/units/probe/probe-run.png",
+            filename = "__erm_toss_hd_assets__/graphics/entity/units/probe/probe-run_teamcolour.png",
             width = 136,
             height = 130,
             frame_count = 1,

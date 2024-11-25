@@ -37,6 +37,7 @@ AnimationDB.data = {
         corsair = require("__erm_toss_hd_assets__/db/units/corsair"),
         darkarchon = require("__erm_toss_hd_assets__/db/units/darkarchon"),
         darktemplar = require("__erm_toss_hd_assets__/db/units/darktemplar"),
+        invis_darktemplar = require("__erm_toss_hd_assets__/db/units/invis_darktemplar"),
         dragoon = require("__erm_toss_hd_assets__/db/units/dragoon"),
         interceptor = require("__erm_toss_hd_assets__/db/units/interceptor"),
         probe = require("__erm_toss_hd_assets__/db/units/probe"),
